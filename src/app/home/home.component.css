@@ -8,28 +8,15 @@
     font-size:20px;
     box-shadow: black 5px 8px 5px;
 }
-.easy_container{
-    background-image:url('../../assets/images/jumbo.jpg');
+.container{
+    background-color:grey;
     background-size:1000px;
     background-repeat: no-repeat;
     background-size: cover;height:600px;
      border:1px solid black;
-     opacity:0.;
      height:900px;
 }
-.innereasy-container{
-  
-    background:rgb(46, 45, 45);
-    color:white;
-    border-radius:5px;
-    /* border:2px solid black; */
-    width:950px;
-    height:900px;
-    margin-left:220px;  
-    border:none;
-    border: rgb(230, 161, 13) 2px solid;
-    
- }
+
  .heading {
   margin-bottom: 20px;
   font-size: 3rem;
