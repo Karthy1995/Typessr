@@ -1,0 +1,43 @@
+<div class="easy_container">
+    <div class="innereasy-container">
+       
+        <h2 class="heading text-center">
+        Type Test
+        </h2>
+        <div class="header">
+            <div class="wpm">
+              <div class="curr_wpm">{{words}}</div>
+              <!-- <div class="header_text">WPM</div> -->
+            </div>
+       
+            <div class="errors">
+              
+              <div class="curr_errors">{{error}}</div>
+              <div class="header_text">Errors</div>
+            </div>
+            <div class="timer">
+              <div class="curr_time">{{timeLeft}}</div>
+              <div class="header_text">Time</div>
+            </div>
+            <div class="accuracy">
+           
+              <div class="curr_accuracy">{{accuracyPercent}}</div>
+              <div class="header_text">Accuracy</div>
+            </div>
+          </div> 
+        
+          <p [innerHTML]="highlight()"></p>
+            <input rows="5" id=input_text class="bg-light text-dark"  [(ngModel)]="input_text"  #Intext [disabled]="(timeLeft == 0)" (input)="processCurrentText($event)"placeholder="Click on START button & type here..."  />
+            <br>
+         <button class="start_btn" id="start-btn" style="font-size: 25px;"  (click)="onClick()" (click)="setTimer()" *ngIf="!isStart" >Start</button>
+         <button class="start_btn" id="start-btn" style="font-size: 25px;" *ngIf="isStart" >Stop</button>
+         <button class="restart_btn" id="start-btn" style="font-size: 25px;"  (click)="reloadPage()">Re-Test</button>       
+         <button class="restart_btn" id="start-btn" style="font-size: 25px;"  (click)="ChangeLevel()">Change Level</button> </div>
+    
+    <div id="result" class="mt-2 pt-2  text-center">
+    
+            <h4 class="text-dark"></h4>
+            <!-- (click)="setTimer()" -->
+            <!-- (keyup)="onAccuracyCheck($event)" -->
+    
+    </div>

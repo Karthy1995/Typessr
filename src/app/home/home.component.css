@@ -1,0 +1,172 @@
+.start_btn{
+    background:#1c5786;
+    color:rgb(241, 244, 247);
+    width:300px;
+    border-radius:10px;
+    margin-top:20px;
+    margin-left:80px;
+    font-size:20px;
+    box-shadow: black 5px 8px 5px;
+}
+.easy_container{
+    background-image:url('../../assets/images/jumbo.jpg');
+    background-size:1000px;
+    background-repeat: no-repeat;
+    background-size: cover;height:600px;
+     border:1px solid black;
+     opacity:0.;
+     height:900px;
+}
+.innereasy-container{
+  
+    background:rgb(46, 45, 45);
+    color:white;
+    border-radius:5px;
+    /* border:2px solid black; */
+    width:950px;
+    height:900px;
+    margin-left:220px;  
+    border:none;
+    border: rgb(230, 161, 13) 2px solid;
+    
+ }
+ .heading {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  color: rgb(245, 240, 240);
+}  
+ .header {
+    display: flex;
+    align-items: center;
+    margin-left:100px;
+  }
+ .timer, .errors,
+.cpm{
+  background-color: #f1f1ea;
+  color:rgb(20, 20, 20);
+  height: 93px;
+  width: 100px;
+  margin-right:25px;
+padding: 10px;
+  border: rgb(230, 161, 13) 5px solid;
+  border-radius: 50%;
+  
+}
+.wpm,.accuracy{
+  background-color: #f1f1ea;
+  color:rgb(20, 20, 20);
+  height: 93px;
+  width: 200px;
+  margin-right:25px;
+padding: 10px;
+  border: rgb(230, 161, 13) 5px solid;
+  border-radius:5%;
+}
+.wpm .header_text{
+ font-size: medium;
+}
+textarea:focus{
+				
+  animation: border-color-change;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+}
+  .header_text {
+    text-transform: uppercase;
+    font-size:15px;
+    font-weight: 600;
+    margin-top:10px;
+    margin-bottom:50px;
+    color:white;
+  }
+.curr_time, .curr_errors,
+.curr_accuracy, .curr_cpm,
+.curr_wpm {
+  font-size: 2.70rem;
+ 
+}
+  .Easylabel{
+    font-size: 1.5rem;
+    color:white;
+    margin-left: 50px;
+  } 
+  .quote {
+    background-color: #1c5786;
+    font-size: 1.5rem;
+    margin: 50px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+  }
+   
+  
+  #input_text{
+    background-color: #f5f5c6;
+    color:black;
+    height:120px;
+    width:573px;
+    margin-left: 80px;
+    margin-right: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+    text-align: center;
+  }
+  .restart_btn {
+  
+    background:#1c5786;
+    color:rgb(247, 250, 253);
+    width:300px;
+    height:45px;
+    border:none;
+    border-radius:10px;
+    margin-top:20px;
+    font-size:20px;
+    margin-left:85px;
+    box-shadow: black 5px 8px 5px;
+  }
+   
+  p{
+    background-color: #98bddb;
+    font-size: 1.5rem;
+    margin: 50px;
+    padding: 25px;
+    color:black;
+   
+  }
+  
+.correct_char{
+  color: rgb(82, 200, 82);
+}
+  .highlightText {
+    background:rgb(6, 146, 6)!important;
+    text-decoration: underline;
+  }
+  .highlightText1{
+    background:rgb(204, 45, 17)!important;
+    text-decoration: underline;
+  }
+  .incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
+  .form-control{
+    width:300px;
+    border-radius: 10px;
+    margin-left:310px;
+    padding-top:30px;
+     padding-bottom: 10px;
+    
+     
+}
+#text{
+  box-shadow: grey 5px 8px 5px;
+  border-radius: 10px 10px 10px 10px;
+ font-size: 20px;
+/*    border: 10px solid green;
+*/    width: 85%;
+}

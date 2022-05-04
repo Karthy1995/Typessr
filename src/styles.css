@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+.highlightText {
+    background:rgb(6, 146, 6)!important;
+    text-decoration: underline;
+  }
+  .highlightText1{
+    background:rgb(204, 45, 17)!important;
+    text-decoration: underline;
+  }
+  .incorrect_char {
+    color: red;
+    text-decoration: underline;
+  }
